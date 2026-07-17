@@ -275,8 +275,17 @@ footer {
   padding: 2rem 4rem;
 }
 .footer-left { font-size: 0.78rem; font-weight: 300; color: var(--hint); }
-.footer-left span { color: var(--sub); }
-.footer-right { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--hint); }
+.footer-left span {
+  color: var(--gold);
+  font-weight: 500;
+}
+.footer-right {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
 
 /* ── SCROLL ANIMATIONS ─────────────────────── */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
